@@ -1,0 +1,38 @@
+Welcome the user.
+
+Create the user prompt for a 4 digit year input. (remember the blank lines)
+
+CALCULATION IDEAS:
+
+use a for loop to avoid exceed the maximum allowed if elif else statements?
+
+potentially use a lot of variables before the if statement to prevent it from getting too large and ugly.
+
+Leap year requirements:
+
+divisible by 9,
+that last two digits do not match,
+the sum of the last two digits equals the first two digits ex. 1165 != leap year
+
+SO THEREFORE
+
+leap = 0
+
+firstTwo = math.floor(year / 100)
+lastTwo = year - year % 100
+sumLastTwo = int(lastTwo[0] + lastTwo[1])
+remainder = year % 9
+if remainder = 0 and firstTwo != sumLastTwo:
+
+elif if year[2] != year[3]:
+
+else:
+
+
+
+Create the output following the given requirements:
+
+fist line always the same no matter the result,
+must use the year the user entered in line 2,
+second line must be indented,
+state whether the year entered is a leap year.

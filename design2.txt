@@ -1,0 +1,13 @@
+Add a welcome message.
+
+Three animals, each with a type, number seen, and what it said. (most likely using a for loop with inputs and an include function)
+
+Create the animalator starting message with enter prompt
+
+Print:
+
+total number of animals seen,
+types of animals seen pluralized,
+each animal and what they said,
+and the new animal. (average number of each type seen w/ random ordering of animal names w/ random order of statement)
+
